@@ -1,0 +1,106 @@
+@charset 'UTF-8';
+* {
+    margin: 0px;
+    padding: 0px;
+}
+:root {
+--cor0: #66C6C9;
+--cor1: #4BBEBB;
+--cor2: #C8E451;
+}
+body {
+    
+    margin-top: 100px;
+    background-image: linear-gradient(to right, var(--cor1), var(--cor2));
+    text-align: center;
+}
+.div {
+    display: inline-flex;
+    
+}
+.primeiro {
+    background-color: white;
+    width: 500px;
+    height: 200px;
+    margin: 0 auto;
+    margin-top: 100px;
+    border-radius: 10px 10px 0px 0px;
+}
+.primeiro > h1 {
+    padding-left: 30px;
+    padding-top: 30px;
+    text-align: justify;
+    font-size: 23px;
+    color: var(--cor0);
+}
+.primeiro > div {
+    color: gray
+}
+.primeiro > .day {
+    color: var(--cor2);
+}
+.primeiro > div {
+    padding-left: 30px;
+    padding-top: 20px;
+    text-align: justify;
+}
+.segundo {
+    width: 250px;
+    height: 250px;
+    background-color: var(--cor1);
+    border-radius: 0px 0px 0px 10px;
+    
+}
+.segundo > h2 {
+    font-size: 1,5em;
+    padding-left: 30px;
+    padding-top: 30px;
+    text-align: justify;
+    color: white;
+}
+.segundo > div {
+    padding-left: 30px;
+    padding-top: 22px;
+    text-align: justify;
+    color: rgba(255, 255, 255, 0.315);
+}
+.segundo > div > strong {
+    font-size: 2em;
+    color: white;
+}
+.segundo > div > a {
+    text-decoration: none;
+    color: white;
+    background-color: var(--cor2);
+    padding-left: 70px;
+    padding-right: 80px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+.segundo > .full {
+    color: white;
+    padding-top: 20px;
+}
+.terceiro {
+    width: 250px;
+    height: 250px;
+    background-color: var(--cor0);
+    border-radius: 0px 0px 10px 0px;
+    
+}
+.terceiro > h2 {
+    font-size: 22px;
+    padding-left: 30px;
+    padding-top: 30px;
+    text-align: justify;
+    color: white;
+}
+.terceiro > div {
+    padding-left: 30px;
+    padding-top: 5px;
+    text-align: justify;
+    text-align: justify;
+    color: rgba(255, 255, 255, 0.397);
+}
